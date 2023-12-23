@@ -38,9 +38,9 @@ The main menu has the following options:
 
 The breadcrumb allows us to know where we are in the file system of our computer. It consists of the directory hierarchy starting from the beginning of the filesystem (C:\ for 
 
-Windows and /  for Linux) up to the current directory. For example, if we are on a Windows  operating  system  and  in  the  C:\Users\gthanos\MyDocuments\  directory  the 
+Windows and /  for Linux) up to the current directory. For example, if we are on a Windows  operating  system  and  in  the  C:\Users\tzoral\MyDocuments\  directory  the 
 
-breadcrumb should be **C:> Users > gthanos > MyDocuments**. Each of the words **C:** , **Users** , **gthanos** is a link to the corresponding directory. **MyDocuments** is the current directory, so there is no reason to have a link to it, but it is not wrong if it is a link.
+breadcrumb should be **C:> Users > tzoral > MyDocuments**. Each of the words **C:** , **Users** , **tzoral** is a link to the corresponding directory. **MyDocuments** is the current directory, so there is no reason to have a link to it, but it is not wrong if it is a link.
 
 **The content of the current catalogue**
 
