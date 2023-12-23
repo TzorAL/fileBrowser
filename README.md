@@ -2,7 +2,7 @@
 
 A program to explore the files on your system. The program you write should run on any operating system (Windows, Linux, MAC OS/X, etc.). The program will consist of the main window which will support almost all of the functionality.
 
-![](Aspose.Words.b7f5000d-f582-4aa8-8a3f-f4371fa79f15.003.png)
+![](filebrowser.png)
 
 Figure 1 The layout of the window
 
