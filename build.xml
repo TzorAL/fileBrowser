@@ -1,0 +1,44 @@
+<?xml version="1.0" ?>
+<project name="FileBrowser" default="run" >
+<description>Compiles and runs my file browser</description>
+
+  <target name="init">
+    <mkdir dir="build/classes" />
+    <mkdir dir="dist" />
+  </target>
+
+  <target name="compile" depends="init"
+      description="Compiles the source code">
+    <javac  
+	  includeantruntime="false"
+      srcdir="src"
+      destdir="build/classes"/>
+  </target>
+
+  <target name="archive" depends="compile"
+      description="Creates the JAR file">
+    <jar destfile="dist/FileBrowser.jar"
+      basedir="build/classes">
+   	  <manifest>
+    	<attribute name="Main-Class" value="FileBrowser.Browser"/>
+	  </manifest>
+    </jar>
+  </target>
+
+  <target name="clean" depends="init"
+      description="Removes the temporary directories used">
+    <delete dir="build" />
+    <delete dir="dist" />
+  </target>
+
+  <target name="run" depends="compile"
+      description="Runs the program">
+    <echo level="warning" message="running" />
+    <java
+      classname="FileBrowser.Browser"
+      classpath="build/classes/"
+      fork="true">
+    </java>
+  </target>
+
+</project>
