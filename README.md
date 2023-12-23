@@ -2,7 +2,7 @@
 
 A program to explore the files on your system. The program you write should run on any operating system (Windows, Linux, MAC OS/X, etc.). The program will consist of the main window which will support almost all of the functionality.
 
-![](filebrowser.png)
+![Filebrowser GUI](icons/filebrowser.png)
 
 Figure 1 The layout of the window
 
